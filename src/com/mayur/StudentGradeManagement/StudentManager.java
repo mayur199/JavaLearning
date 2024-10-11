@@ -5,31 +5,31 @@ import java.util.List;
 
 public class StudentManager {
 
-	private List<Student> StudentList = new ArrayList<>();
+	private List<Student> studentList = new ArrayList<>();
 
 	public List<Student> getStudentList() {
-		return StudentList;
+		return studentList;
 	}
 
 	public void setStudentList(List<Student> studentList) {
-		StudentList = studentList;
+		this.studentList = studentList;
 	}
 
 	public void addStudent(Student student) {
-		StudentList.add(student);
+		studentList.add(student);
         System.out.println(student.getName());
 
 	}
 
 	public void viewStudents() {
-		for (Student student : StudentList) {
+		for (Student student : studentList) {
 			System.out.println(student);
 		}
 	}
 
 	@Override
 	public String toString() {
-		return "StudentManager [StudentList=" + StudentList + "]";
+		return "StudentManager [StudentList=" + studentList + "]";
 	}
 
 }
