@@ -5,29 +5,29 @@ import java.util.List;
 
 public class Inventory {
 
-	private List<Product> ProductList = new ArrayList<>();
+	private List<Product> productList = new ArrayList<>();
 
 	public List<Product> getProductList() {
-		return ProductList;
+		return productList;
 	}
 
 	public void setProductList(List<Product> productList) {
-		ProductList = productList;
+		productList = productList;
 	}
 
 	public void addProduct(Product product) {
-		ProductList.add(product);
+		productList.add(product);
 		System.out.println(product.getName());
 	}
 
 	public void viewProducts() {
-		for (Product product : ProductList) {
+		for (Product product : productList) {
 			System.out.println(product);
 		}
 	}
 
 	public void updateQuantity(String name, int quantity) {
-		for (Product product : ProductList) {
+		for (Product product : productList) {
 			if (product.getName().equalsIgnoreCase(name)) {
 				product.setQuantity(quantity);
 				System.out.println("Updated " + name + " quantity to " + quantity);
@@ -40,7 +40,7 @@ public class Inventory {
 
 	@Override
 	public String toString() {
-		return "Inventory [ProductList=" + ProductList + "]";
+		return "Inventory [productList=" + productList + "]";
 	}
 
 }
