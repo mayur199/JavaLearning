@@ -1,4 +1,4 @@
-package Programs;
+package com.adhoc;
 
 public class ElseIfExample {
 	public static void main(String[] args) {

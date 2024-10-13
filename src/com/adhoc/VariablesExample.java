@@ -1,4 +1,4 @@
-package Programs;
+package com.adhoc;
 
 public class VariablesExample {
 	public static void main(String[] args) {
