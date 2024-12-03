@@ -1,4 +1,4 @@
-package com.mayur.ContactManagementSystem;
+package com.mayur.contactmanagementsystem;
 
 public class MainClass {
 

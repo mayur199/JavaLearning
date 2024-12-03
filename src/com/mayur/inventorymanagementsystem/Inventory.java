@@ -1,4 +1,4 @@
-package com.mayur.InventoryManagementSystem;
+package com.mayur.inventorymanagementsystem;
 
 import java.util.ArrayList;
 import java.util.List;

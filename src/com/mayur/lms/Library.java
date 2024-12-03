@@ -1,4 +1,4 @@
-package com.mayur.LMS;
+package com.mayur.lms;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.mayur.StudentGradeManagement;
+package com.mayur.studentgrademanagement;
 
 public class MainClass {
 	public static void main(String[] args) {

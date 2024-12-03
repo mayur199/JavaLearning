@@ -1,4 +1,4 @@
-package com.mayur.TaskManagementSystem;
+package com.mayur.taskmanagementsystem;
 
 public class MainClass {
 	public static void main(String[] args) {

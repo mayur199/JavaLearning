@@ -1,4 +1,4 @@
-package com.mayur.StudentGradeManagement;
+package com.mayur.studentgrademanagement;
 
 public class Student {
 	private String name;

@@ -1,4 +1,4 @@
-package com.mayur.ContactManagementSystem;
+package com.mayur.contactmanagementsystem;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.mayur.InventoryManagementSystem;
+package com.mayur.inventorymanagementsystem;
 
 public class MainClass {
 	public static void main(String[] args) {

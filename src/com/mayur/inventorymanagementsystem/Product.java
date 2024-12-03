@@ -1,4 +1,4 @@
-package com.mayur.InventoryManagementSystem;
+package com.mayur.inventorymanagementsystem;
 
 public class Product {
 	private String name;

@@ -1,4 +1,4 @@
-package com.mayur.TaskManagementSystem;
+package com.mayur.taskmanagementsystem;
 
 public class Task {
 	private String title;

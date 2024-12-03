@@ -1,4 +1,4 @@
-package com.mayur.TaskManagementSystem;
+package com.mayur.taskmanagementsystem;
 
 import java.util.ArrayList;
 import java.util.List;

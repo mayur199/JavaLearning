@@ -1,4 +1,4 @@
-package com.mayur.BasicBankingSystem;
+package com.mayur.basicbankingsystem;
 
 import java.util.ArrayList;
 import java.util.List;

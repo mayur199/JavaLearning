@@ -1,4 +1,4 @@
-package com.mayur.StudentGradeManagement;
+package com.mayur.studentgrademanagement;
 
 import java.util.ArrayList;
 import java.util.List;

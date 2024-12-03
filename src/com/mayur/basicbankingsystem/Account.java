@@ -1,4 +1,4 @@
-package com.mayur.BasicBankingSystem;
+package com.mayur.basicbankingsystem;
 
 public class Account {
 
