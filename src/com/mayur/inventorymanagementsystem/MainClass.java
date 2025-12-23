@@ -19,9 +19,20 @@ public class MainClass {
 		i.addProduct(p2);
 		i.addProduct(p3);
 		i.viewProducts();
-		
+
 		i.updateQuantity("Mobile", 20);
+
+		i.viewProducts();
+
+		Product foundProduct = i.searchProduct("Laptop");
+
+		if (foundProduct != null) {
+			System.out.println("Product Found: " + foundProduct);
+		} else {
+			System.out.println("Product Not Found");
+		}
 		
+		i.removeProduct("Headphone");
 		i.viewProducts();
 
 	}

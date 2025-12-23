@@ -35,8 +35,34 @@ public class Inventory {
 			}
 		}
 		System.out.println("Product not found");
+	}
+
+	public Product searchProduct(String name) {
+		for (Product product : productList) {
+			if (product.getName().equalsIgnoreCase(name)) {
+				return product;
+			}
 		}
-	
+		return null;
+	}
+
+	public void removeProduct(String name) {
+		Product productToRemove = null;
+
+		for (Product product : productList) {
+			if (product.getName().equalsIgnoreCase(name)) {
+				productToRemove = product;
+				break;
+			}
+		}
+
+		if (productToRemove != null) {
+			productList.remove(productToRemove);
+			System.out.println(name + " removed successfully");
+		} else {
+			System.out.println("Product not found");
+		}
+	}
 
 	@Override
 	public String toString() {
